@@ -1,4 +1,5 @@
 
+
 img{
   max-width:100%;
 }
@@ -36,8 +37,8 @@ display: inline-block;
 
 .plant {
   padding:1em;
-  width: 520px;
-  height: 550px;
+  width: 480px;
+  height: 530px;
   float: left;
   padding-left:4em;
   display:block;
@@ -53,10 +54,24 @@ h2{
   border:10px;
   border-style:solid; 
   border-color:#B7CAA6;
-
+  padding:0.8em;
+  display:block;
 }
 
+div.info{
+  font-size:22px;
+  background-color:#B7CAA6;
+  color:white;
+  padding:5.5em;
+  display:block;
+  font-family:futura;
+  margin:7em;
+}
 
+h3{
+  font-size:35px;
+  
+}
 @media only screen and (max-width: 768px) {
   
   .everything {
@@ -71,6 +86,7 @@ h2{
     margin-top:5em;
     float:none;
     padding-left:0em;
+
   }
   
   h2{
@@ -86,4 +102,13 @@ h2{
   .three{
     display:block;
   }
+  div.info{
+    font-size:13px;
+    padding:3.3em;
+    margin:0em;
+  }
+  h3{
+    font-size:25px;
+  }
+  
 }
