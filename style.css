@@ -65,6 +65,7 @@ div.info{
   padding:5.5em;
   display:block;
   font-family:futura;
+  margin:8em;
 }
 
 h3{
@@ -104,6 +105,7 @@ h3{
   div.info{
     font-size:13px;
     padding:3.3em;
+    margin:0em;
   }
   h3{
     font-size:25px;
